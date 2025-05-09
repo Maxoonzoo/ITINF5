@@ -1,7 +1,7 @@
 name: Build and Deploy to Kubernetes
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME_USER: ${{ github.repository }}/user-service
